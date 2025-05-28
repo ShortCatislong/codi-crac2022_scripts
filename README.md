@@ -38,8 +38,8 @@ Scripts to convert the [Universal Anaphora](https://github.com/UniversalAnaphora
 
 ## Baseline Performance
 
-|                                   | Model | AMI   | LIGHT | Persuasion | Swbd  | ARRAU (Trains91) |
+|                                   | Model | LIGHT   | AMI | Persuasion | Swbd  | Avg. |
 | --------------------------------- | ----- | ----- | ----- | ---------- | ----- | ---------------- |
-| Identity Anaphora (CoNLL Avg. F1) | [coref-hoi](https://github.com/lxucs/coref-hoi/) | TODO | TODO | TODO       | TODO | TODO            |
-| Bridging (Entity F1)              | [dali-bridging](https://github.com/juntaoy/dali-bridging) | TODO  | TODO  | TODO       | TODO | TODO            |
-| Discourse Deixis (CoNLL Avg. F1)  | [prev-utterance](https://github.com/sopankhosla/codi2021_scripts/blob/3509e2c588cd5097b4778b7754b0b1a89b06b478/helper.py#L377) | TODO | TODO | TODO       | TODO | TODO            |
+| Identity Anaphora (CoNLL Avg. F1) | [coref-hoi](https://github.com/lxucs/coref-hoi/) | 54.23 | 34.14 | 53.16       | 49.30 | 47.71            |
+| Bridging (Entity F1)              | [dali-bridging](https://github.com/juntaoy/dali-bridging) | 4.01  | 4.66  | 8.45       | 4.00 | 5.28            |
+| Discourse Deixis (CoNLL Avg. F1)  | [prev-utterance](https://github.com/sopankhosla/codi2021_scripts/blob/3509e2c588cd5097b4778b7754b0b1a89b06b478/helper.py#L377) | 10.94 | 17.39 | 16.61       | 13.30 | 14.56            |
